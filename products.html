@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores de la Plaza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="d-flex align-items-center justify-content-between container">
+      <div class="logo">
+        <span>Sabores de la Plaza</span>
+      </div>
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/products.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <div class="row gx-5">
+      <div class="col-7">
+        <h1>Explora los puestos de la plaza</h1>
+        <p>
+          Descubre los sabores auténticos de Colombia a través de nuestro colectivo de vendedores tradicionales, cada
+          uno
+          aportando siglos de herencia culinaria a tu mesa.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="d-flex align-items-center gap-2">
+
+        <span class="badge rounded-pill text-bg-warning badge-custom badge-active" data-filter="todos">
+          Todos
+        </span>
+
+        <span class="badge rounded-pill text-bg-warning badge-custom" data-filter="frutas">
+          Frutas
+        </span>
+
+        <span class="badge rounded-pill text-bg-warning badge-custom" data-filter="cafe">
+          Café
+        </span>
+
+        <span class="badge rounded-pill text-bg-warning badge-custom" data-filter="comida">
+          Comida
+        </span>
+
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="frutas">
+        <div class="card h-100">
+          <img src="img/frutas.jpg" class="card-img-top" alt="Frutería con frutas tropicales">
+          <div class="card-body">
+            <h5 class="card-title">Frutas Don Fabio</h5>
+            <p class="card-text">
+              Frutas tropicales seleccionadas a mano desde el corazón del campo. Vive la verdadera biodiversidad de
+              Colombia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="comida">
+        <div class="card h-100">
+          <img src="img/almuerzo.jpg" class="card-img-top" alt="Almuerzos tradicionales colombianos">
+          <div class="card-body">
+            <h5 class="card-title">Almuerzos Doña Luz</h5>
+            <p class="card-text">
+              El sabor del hogar en cada plato. Menú del día con ingredientes frescos del mercado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="frutas">
+        <div class="card h-100">
+          <img src="img/jugos.jpg" class="card-img-top" alt="Jugos naturales de fruta">
+          <div class="card-body">
+            <h5 class="card-title">Jugos La Cosecha</h5>
+            <p class="card-text">
+              Extractos naturales y granizados de pura fruta sin azúcar añadida.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="cafe">
+        <div class="card h-100">
+          <img src="img/cafe.jpg" class="card-img-top" alt="Café colombiano del mercado">
+          <div class="card-body">
+            <h5 class="card-title">Café de Origen</h5>
+            <p class="card-text">
+              Café colombiano premium de origen único, tostado en pequeños lotes para preservar cada nota delicada.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="comida">
+        <div class="card h-100">
+          <img src="img/hamburguesas.jpg" class="card-img-top" alt="Quinta card">
+          <div class="card-body">
+            <h5 class="card-title">Comidas Rapidas</h5>
+            <p class="card-text">
+              Comidas rapidas, disfruta de deliciosas hamburguesas, salchipapas, etc. disponible solo en las noches
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 card-item" data-category="comida">
+        <div class="card h-100">
+          <img src="img/miel.jpg" class="card-img-top" alt="Quinta card">
+          <div class="card-body">
+            <h5 class="card-title">Miel & Conservas</h5>
+            <p class="card-text">
+              Productos del panal y mermeladas artesanales sin conservantes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

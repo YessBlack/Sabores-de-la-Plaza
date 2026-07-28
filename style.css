@@ -3,3 +3,85 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Lora", serif;
+  background-color: #fffcfb;
+}
+
+.header {
+  background-color: #FFEDE7;
+}
+
+.carousel-item img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.title {
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #FFEDE7;
+  padding: 16px;
+  margin-top: 3rem;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.badge-custom {
+  width: 100px;
+  padding: 8px;
+}
+
+.badge-custom:hover {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #DC3545 !important;
+  color: white !important;
+}
+
+.badge-active {
+  background-color: #DC3545 !important;
+  color: white !important;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  font-size: 2rem;
+}
+
+.icon-green {
+  background-color: #CAFFBB;
+  color: #6C9D62;
+}
+
+.icon-orange {
+  background-color: #FFDBCD;
+  color: #EE671C;
+}
+
+.icon-brown {
+  background-color: #FFDAD2;
+  color: #755750;
+}
+
+.imgApoyo {
+  width: 600px;
+}
+
+.card-item img {
+  height: 200px;
+  object-fit: cover;
+}
