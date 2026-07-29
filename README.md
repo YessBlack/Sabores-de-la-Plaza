@@ -84,14 +84,6 @@ Las contribuciones son bienvenidas. Si deseas mejorar el proyecto:
 
 Este proyecto está bajo la Licencia MIT.
 
-## 👨‍👩‍👧‍👦 Impacto Social
-
-Sabores de la Plaza apoya a más de 50 puestos familiares de productores locales, promoviendo:
-- Economía circular
-- Sostenibilidad ambiental
-- Preservación de tradiciones culinarias colombianas
-- Comercio justo y directo
-
 ---
 
 **Desarrollado con ❤️ para los productores locales de Colombia**
